@@ -8,6 +8,8 @@ import plotly.express as px
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
+import os 
+
 
 st.set_page_config(
     page_title="Premier League Prediction",
@@ -26,7 +28,7 @@ st.markdown(f'''   <style>
 # Load training data and prediction data
 training_data = pd.read_csv('training.csv')
 prediction_data = pd.read_csv('prediction_2023.csv')
-eda_data=pd.read_excel(r"PL Table Prediction PDS.xlsx")
+eda_data=pd.read_excel('PL Table Prediction PDS.xlsx')
 
 # Function to train the model
 def train_model(train_data):
@@ -76,6 +78,7 @@ def load_and_filter_data(file_path, selected_position):
     return filtered_data
 # Streamlit app
 # Create sidebar for team selection
+
 xls = pd.ExcelFile(r"PL Master Data.xlsx")
 valid_teams = xls.sheet_names
 with st.sidebar:        
@@ -111,7 +114,7 @@ if app== "Team Data":
     st.title("Team Player's Information")
     selected_team = st.selectbox('Select Team', valid_teams)
     st.write("Team:", selected_team)
-    team_data = pd.read_excel(r"C:\Users\jmdgo\OneDrive\Documents\PL Master Data.xlsx", sheet_name=selected_team)
+    team_data = pd.read_excel(r"PL Master Data(1).xlsx", sheet_name=selected_team)
     st.write(team_data)
 
 if app == "Stats":
