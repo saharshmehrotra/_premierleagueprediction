@@ -24,9 +24,9 @@ st.markdown(f'''   <style>
         
        ''',   unsafe_allow_html=True)
 # Load training data and prediction data
-training_data = pd.read_csv('C:\\Users\\jmdgo\\Downloads\\training.csv')
-prediction_data = pd.read_csv('C:\\Users\\jmdgo\\Downloads\\prediction_2023.csv')
-eda_data=pd.read_excel(r"C:\Users\jmdgo\Downloads\PL Table Prediction PDS.xlsx")
+training_data = pd.read_csv('training.csv')
+prediction_data = pd.read_csv('prediction_2023.csv')
+eda_data=pd.read_excel(r"PL Table Prediction PDS.xlsx")
 
 # Function to train the model
 def train_model(train_data):
@@ -76,7 +76,7 @@ def load_and_filter_data(file_path, selected_position):
     return filtered_data
 # Streamlit app
 # Create sidebar for team selection
-xls = pd.ExcelFile(r"C:\Users\jmdgo\OneDrive\Documents\PL Master Data.xlsx")
+xls = pd.ExcelFile(r"PL Master Data.xlsx")
 valid_teams = xls.sheet_names
 with st.sidebar:        
     app = option_menu (
