@@ -28,7 +28,7 @@ st.markdown(f'''   <style>
        ''',   unsafe_allow_html=True)
 # Load training data and prediction data
 training_data = pd.read_csv('training.csv')
-prediction_data = pd.read_csv('predictionn_2023.csv')
+prediction_data = pd.read_csv('prediction_2023.csv')
 eda_data=pd.read_excel('PL Table Prediction PDS.xlsx')
 
 # Function to train the model
