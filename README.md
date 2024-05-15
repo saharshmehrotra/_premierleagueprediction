@@ -28,6 +28,13 @@ Various machine learning models were tested, including Random Forest Classifier,
 
 The predictive model was deployed using Streamlit, creating a user-friendly web interface. Users can access live table predictions, team data and interactive EDA graphs.
 
+![image](https://github.com/saharshmehrotra/_premierleagueprediction/assets/135410807/f41932ae-ba17-4867-b180-ed70c921c43a)
+
+![image](https://github.com/saharshmehrotra/_premierleagueprediction/assets/135410807/50dbf0c1-6c32-4b82-91be-13d36f61d3c5)
+
+![image](https://github.com/saharshmehrotra/_premierleagueprediction/assets/135410807/daff75f5-93b1-4b52-be7f-bd5d9c34433a)
+
+
 ## Conclusion
 
 This project demonstrates the application of Python and machine learning techniques to predict Premier League match outcomes. While the model provides valuable insights, the unpredictable nature of football means that predicting winners remains a challenging task.
