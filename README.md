@@ -2,11 +2,11 @@
 
 ## Introduction
 
-In the realm of global football, the English Premier League stands out as a beacon of quality and competition. It boasts top-tier teams and is renowned for its unpredictability and passionate matches. This project aims to leverage data analysis to predict Premier League match outcomes, providing clubs with insights to gain a competitive edge.
+In the realm of global football, the English Premier League stands out as a beacon of quality and competition. It boasts top-tier teams and is renowned for its unpredictability and passionate matches. This project aims to leverage data analysis to predict Premier League match outcomes, providing clubs with insights to gain a competitive edge. Our goal is to take advantage of this scenario and introduce a groundbreaking approach that gives Premier League clubs access to data’s predictive capabilities. We aim to enable these clubs to see beyond the short term and foresee the outcomes of their future matches against their fellow competitors. It’s an exploration of the core concepts in football analytics, blending historical performance analysis with the optimum statistical tools required for future projection.  
 
 ## Problem Statement
 
-The goal is to create a dynamic Premier League table using predictive analytics, enabling clubs to forecast match outcomes and position themselves for success.
+The main goal of this work is to create the most influential features through feature engineering to accurately determine the outcome in multi-class and binary-class of EPL matches. Our primary objective is to furnish specific clubs with valuable statistics and insights, allowing us to forecast the likelihood of their success in upcoming matches against opposing teams and generate a table using that outcome.
 
 ## Dataset Description
 
@@ -23,6 +23,9 @@ EDA was conducted to gain insights into team performance, player statistics and 
 ## Model Testing and Building
 
 Various machine learning models were tested, including Random Forest Classifier, SVM, GBM, KNN and Gaussian Naive Bayes. Random Forest Classifier emerged as the best-performing model, with high accuracy, precision, recall and Jaccard Score.
+
+![image](https://github.com/saharshmehrotra/_premierleagueprediction/assets/135410807/ae391ca8-d5ed-42a8-ab5e-70513c7ebfc8)
+
 
 ## Model Deployment
 
