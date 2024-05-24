@@ -45,8 +45,9 @@ This project demonstrates the application of Python and machine learning techniq
 *UPDATE:* As the 2023/24 season of the Premier League has finally come to a conclusion, the results were quite impressive! Accurately predicting, Manchester City as champions, with Arsenal and Liverpool finishing second and third, respectively. Despite the inherent unpredictability of sports, the model placed the top 10 teams within one or two spots of their actual positions and correctly predicted 2 out of 3 relegated teams✅️
 
 This underscores the robustness of our approach and it is evident in the tabular comparison of actual vs. predicted positions given below:
+<p align="center">
 <img width="503" alt="PL Table - Actual vs Predicted 2023-24" src="https://github.com/saharshmehrotra/_premierleagueprediction/assets/135410807/c4ababc2-e816-4d36-b8be-ba757e7ef6f8">
-
+</p>
 
 
 ## Deployment Link
