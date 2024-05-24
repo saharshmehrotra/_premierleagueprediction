@@ -42,6 +42,12 @@ The predictive model was deployed using Streamlit, creating a user-friendly web 
 
 This project demonstrates the application of Python and machine learning techniques to predict Premier League match outcomes. While the model provides valuable insights, the unpredictable nature of football means that predicting winners remains a challenging task.
 
+*UPDATE:* As the 2023/24 season of the Premier League has finally come to a conclusion, the results were quite impressive! Accurately predicting, Manchester City as champions, with Arsenal and Liverpool finishing second and third, respectively. Despite the inherent unpredictability of sports, the model placed the top 10 teams within one or two spots of their actual positions and correctly predicted 2 out of 3 relegated teams✅️
+
+This underscores the robustness of our approach and it is evident in the tabular comparison of actual vs. predicted positions given below:
+![image](https://github.com/saharshmehrotra/_premierleagueprediction/assets/135410807/3f897cfc-0080-4621-ad91-7d2975121237)
+
+
 ## Deployment Link
 
 [Premier League Table Prediction](https://premier-league.streamlit.app/)
